@@ -81,5 +81,31 @@ namespace DND12_BinarySearchTree
             Console.WriteLine($"{data} is not present in BST");
             return;
         }
+
+        public void InorderTraversal()
+        {
+            if (Root == null)
+            {
+                return;
+            }
+
+            Stack<Node> stack = new Stack<Node>();
+            Node current = Root;
+
+            while (current != null || stack.Count > 0)
+            {
+                while (current != null)
+                {
+                    stack.Push(current);
+                    current = current.Left;
+                }
+
+                current = stack.Pop();
+                Console.Write(current.Data + " ");
+
+                current = current.Right;
+            }
+        }
+
     }
 }

@@ -14,6 +14,8 @@
 
             binarySearchTree.Search(12);
             binarySearchTree.Search(25);
+
+            binarySearchTree.InorderTraversal();
         }
     }
 }
