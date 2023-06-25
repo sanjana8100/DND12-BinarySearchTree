@@ -107,5 +107,31 @@ namespace DND12_BinarySearchTree
             }
         }
 
+        public void PreorderTraversal()
+        {
+            if (Root == null)
+            {
+                return;
+            }
+
+            Stack<Node> stack = new Stack<Node>();
+            stack.Push(Root);
+
+            while (stack.Count > 0)
+            {
+                Node current = stack.Pop();
+                Console.Write(current.Data + " ");
+
+                if (current.Right != null)
+                {
+                    stack.Push(current.Right);
+                }
+
+                if (current.Left != null)
+                {
+                    stack.Push(current.Left);
+                }
+            }
+        }
     }
 }
