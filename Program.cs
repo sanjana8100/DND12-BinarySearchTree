@@ -15,8 +15,17 @@
             binarySearchTree.Search(12);
             binarySearchTree.Search(25);
 
+            Console.WriteLine("InOrder Traversal:");
             binarySearchTree.InorderTraversal();
+            Console.WriteLine();
+
+            Console.WriteLine("PreOrder Traversal:");
             binarySearchTree.PreorderTraversal();
+            Console.WriteLine();
+
+            Console.WriteLine("PostOrder Traversal:");
+            binarySearchTree.PostorderTraversal();
+            Console.WriteLine();
         }
     }
 }

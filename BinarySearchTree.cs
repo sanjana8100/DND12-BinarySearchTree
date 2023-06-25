@@ -133,5 +133,40 @@ namespace DND12_BinarySearchTree
                 }
             }
         }
+
+        public void PostorderTraversal()
+        {
+            if (Root == null)
+            {
+                return;
+            }
+
+            Stack<Node> stack1 = new Stack<Node>();
+            Stack<Node> stack2 = new Stack<Node>();
+
+            stack1.Push(Root);
+
+            while (stack1.Count > 0)
+            {
+                Node current = stack1.Pop();
+                stack2.Push(current);
+
+                if (current.Left != null)
+                {
+                    stack1.Push(current.Left);
+                }
+
+                if (current.Right != null)
+                {
+                    stack1.Push(current.Right);
+                }
+            }
+
+            while (stack2.Count > 0)
+            {
+                Node current = stack2.Pop();
+                Console.Write(current.Data + " ");
+            }
+        }
     }
 }
