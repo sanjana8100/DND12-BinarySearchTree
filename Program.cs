@@ -11,6 +11,9 @@
             binarySearchTree.Add(29);
             binarySearchTree.Add(12);
             binarySearchTree.Add(29);
+
+            binarySearchTree.Search(12);
+            binarySearchTree.Search(25);
         }
     }
 }

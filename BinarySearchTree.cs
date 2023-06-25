@@ -56,5 +56,30 @@ namespace DND12_BinarySearchTree
             }
         }
 
+        public void Search(int data)
+        {
+            Node temp = Root;
+            int counter = 0;
+            while (temp != null)
+            {
+                if(data == temp.Data)
+                {
+                    Console.WriteLine($"{data} is present in BST. Data was found in {counter} interactions");
+                    return;
+                }
+                else if(data < temp.Data)
+                {
+                    temp = temp.Left;
+                    counter++;
+                }
+                else
+                {
+                    temp = temp.Right;
+                    counter++;
+                }
+            }
+            Console.WriteLine($"{data} is not present in BST");
+            return;
+        }
     }
 }
