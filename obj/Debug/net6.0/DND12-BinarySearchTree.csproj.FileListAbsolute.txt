@@ -1,0 +1,15 @@
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\bin\Debug\net6.0\DND12-BinarySearchTree.exe
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\bin\Debug\net6.0\DND12-BinarySearchTree.deps.json
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\bin\Debug\net6.0\DND12-BinarySearchTree.runtimeconfig.json
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\bin\Debug\net6.0\DND12-BinarySearchTree.dll
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\bin\Debug\net6.0\DND12-BinarySearchTree.pdb
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\obj\Debug\net6.0\DND12-BinarySearchTree.csproj.AssemblyReference.cache
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\obj\Debug\net6.0\DND12-BinarySearchTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\obj\Debug\net6.0\DND12-BinarySearchTree.AssemblyInfoInputs.cache
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\obj\Debug\net6.0\DND12-BinarySearchTree.AssemblyInfo.cs
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\obj\Debug\net6.0\DND12-BinarySearchTree.csproj.CoreCompileInputs.cache
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\obj\Debug\net6.0\DND12-BinarySearchTree.dll
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\obj\Debug\net6.0\refint\DND12-BinarySearchTree.dll
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\obj\Debug\net6.0\DND12-BinarySearchTree.pdb
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\obj\Debug\net6.0\DND12-BinarySearchTree.genruntimeconfig.cache
+C:\Users\INS 5570\source\repos\DND12-BinarySearchTree\DND12-BinarySearchTree\obj\Debug\net6.0\ref\DND12-BinarySearchTree.dll
